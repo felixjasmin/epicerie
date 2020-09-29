@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.texteCentrale{
+    font-size: 70px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+    
+}
+
+.fruitsWrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:100%;
+  flex-wrap:wrap; 
+  
+
+}
+
+.fruitsWrap .element {
+    font-size: 100px; 
+    background-color: #9cebd5;  
+    width: 33.333%;
+    border: 20px;
+  
+}
+
+.element {
+  width:100%;
+}
+
+
+.sectionFormulaire{
+  
+}
+
+.formulaire{
+  width: 340px;
+  padding:20px;
+  padding-color: #9cebd5;
+  
+    font-size: 70px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+      
+}
+
+.crayon {
+  position: absolute;
+  bottom: 20px;
+  
+}
